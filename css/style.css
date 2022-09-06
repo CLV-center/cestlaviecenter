@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+     height: fit-content;
+}
+
+
+
+.body{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+   
+}
+.text{
+    font-size: 30px;
+    color: orange;
+}
+.text2{
+    font-size: 20px;
+}
+.text3{
+    color: orange;
+}
+button.about-us{
+    border: none;
+    outline: none;
+    width: 10em;
+    padding: 20px;
+    color: #EB5353;
+    background: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0px 25px 0px 25px;
+   border: 2px solid #EB5353;
+   transition: 0.3s ease;
+   cursor: pointer;
+}
+button.about-us:hover{
+
+    color: #fff;
+    background: #EB5353;
+  
+}
+#cer1{
+    position: absolute;
+    right: 0;
+    bottom: 20em;
+}
+#cer2{
+    position: absolute;
+    left: -1em;
+    bottom: 0;
+}
+#cer3{
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+}
+#cer4{
+    position: absolute;
+    right: -0.5em;
+    top: -1em;
+}
+.images{
+   width: 25em;
+   height: 25em;
+}
+.with{
+    width: 100px;
+}
+.navbar-brand{
+    margin:0 !important;
+    width: calc(50%);
+}
+.container .card{
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+.container .card:hover{
+    transform: scale(0.99);
+}
+.container .card.shadow:hover {
+    box-shadow: none !important;
+    cursor: pointer;
+}
+#navbar-nav{
+    margin-right: 0 !important;
+}
+#navbarSupportedContent{
+    transform: translateX(-50%);
+    position: relative;
+}
+#navbarSupportedContent ul{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+#navbarSupportedContent ul a{
+
+    color: white;
+}
+@media (max-width: 1000px){
+    .container .card{
+   flex-direction: column !important;
+}
+#navbarSupportedContent ul{
+    position: static;
+    transform: translate(50%,0%);
+}
+#navbarSupportedContent ul li{
+    text-align: center;
+}
+/* .container{
+    width: auto !important;
+} */
+.container {
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .card{
+    margin: 1em 0 !important;
+}
+#services{
+    flex-direction: column;
+}
+.welcome-message{
+    margin:5em auto ;
+}
+#images{
+    margin:5em auto !important;
+    width: 90%;
+}
+.text{
+    margin: 5em;
+}
+.text2{
+    margin: 0em auto;
+    
+}
+.text3{
+    margin: 0em auto;
+}
+.button-about-us{
+    margin: auto;
+}
+}
